@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaiah Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <a href="main" class="skip-to-content">Skip to content</a>
+    
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo">
+                <span class="sr-only">Isaiah</span>
+                <a href="/" aria-label="Isaiah Shembo Logo">
+                    <img src="Images/logo.png" alt="Isaiah Shembo" width="43" height="43">
+                </a>
+            </h1>
+
+            <div class="header__menu">
+
+                <!--mobile navigation menu start-->
+                <button class="button" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileMenu">
+                    <img src="Images/menu.svg" alt="Mobile Menu" width="16" height="11">
+
+                </button>
+                <!--mobile navigation menu end-->
+                <!--Desktop navigation menu start-->
+                <nav class="desktop-menu">
+                    <h1 class="sr-only">Main Navigation</h1>
+                    <ul>
+                        <li><a href="experimental.html" class="desktop-menu__link">Home</a></li>
+                        <li><a href="#" class="desktop-menu__link">About</a></li>
+                        <li><a href="#" class="desktop-menu__link">Shop</a></li>
+                        <li><a href="gallery.html" class="desktop-menu__link">Gallery</a></li>
+                        <li><a href="#" class="desktop-menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <!--Desktop navigation menu end-->
+
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+<!--Mobile navigation menu start-->
+<nav class="mobile-menu is-active" id="mobileMenu">
+    <h1 class="sr-only">Main Navigation</h1>
+    <button class="button mobile-nav-close"></button>
+    <ul>
+        <li><a href="experimental.html" class="mobile-menu__link">Home</a></li>
+        <li><a href="#" class="mobile-menu__link">About</a></li>
+        <li><a href="#" class="mobile-menu__link">Shop</a></li>
+        <li><a href="gallery.html" class="mobile-menu__link">Gallery</a></li>
+        <li><a href="#" class="mobile-menu__link">Contact</a></li>
+    </ul>
+</nav>
+<!--Mobile navigation menu end-->
+
+
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero__image">
+            <img src="Images/selfcol.jpg" alt="Hansel Emmanuel!" loading="lazy" width="1920" height="1074">
+        </div>
+
+
+        <div class="container hero__container">
+
+            <div class="hero-wrapper" id="main">
+
+                <h1 class="hero-wrapper__heading"><span>Isaiah Shembo</span> Photography & Videography </h1>
+                <p class="hero-wrapper__body">
+                    Define your limits and pursue your fitness goals with a complimentary all-access gym pass!
+                </p>
+                <a href="#" class="button button--primary" aria-label="Find out more">Find out more</a>
+
+            </div>
+
+            <a href="scrolldown" class="hero__scrollbtn">
+                Scroll <img src="Images/arrow-down.svg" alt="DOWN" width="24" height="15" loading="lazy">
+            </a>
+
+        </div>
+
+    </section> 
+
+
+    <section class="categories pt-1" id="scrolldown">
+
+        <h1 class="sr-only">Services Catergory</h1>
+
+        <div class="container services">
+
+            <a href="#" class="services__card services__card--square">
+                <h3 class="services__card-title">Location</h3>
+                <div class="image-overlay"></div>
+                <div class="services__image">
+                    <img src="Images/lifestyle.jpg" alt="Grad Photo" width="536" height="559" loading="lazy">
+                </div>
+            </a>
+
+            <a href="#" class="services__card services__card--square">
+                <h3 class="services__card-title">Studio</h3>
+                <div class="image-overlay"></div>
+                <div class="services__image">
+                    <img src="Images/studio1.jpg" alt="Grad Photo" width="536" height="559" loading="lazy">
+                </div>
+            </a>
+
+            <a href="#" class="services__card services__card--square">
+                <h3 class="services__card-title">Sports & Events</h3>
+                <div class="image-overlay"></div>
+                <div class="services__image">
+                    <img src="Images/sports1.jpg" alt="Grad Photo" width="536" height="559" loading="lazy">
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    <section class="get-started get-started-img1 mt-1">
+        <div class="overlay"></div>
+
+        <div class="container">
+            <h1 class="text-center">Get Started Today<br> <span>Why Wait</span></h1>
+            <a href="#" class="button button--primary">Sign Up</a>
+        </div>
+
+    </section>
+
+
+    <section class="services-options pt-1">
+
+    <div class="container">       
+        <h1 class="services-options__heading text-center">Your Service <span>Options</span></h1>
+        <p class="services-options__body text-center">Make memories and capture the moments with photographs and video! Choose from fashion and lifestyle photography, business headshots and portraits, and sports and events photography and videography. Available in the Charlotte, North Carolina and surrounding area. </p>
+
+
+            <div class="services  pt-1">
+
+                <a href="#" class="services__card services__card--end">
+                    <h3 class="services__card-title">Location Photography</h3>
+                    <p class="services__card-body">Expect the unexpected in our signature high-intensity training class. Cycle through timed interval stations designed to consistently shock your system and deliver results.</p>
+                    <div class="image-overlay"></div>
+                    <div class="services__image">
+                        <img src="Images/location.jpg" alt="Portrait on location" width="536" height="559" loading="lazy">
+                    </div>
+                </a>
+
+                <a href="#" class="services__card services__card--end">
+                    <h3 class="services__card-title">Studio Photography</h3>
+                    <p class="services__card-body">Expect the unexpected in our signature high-intensity training class. Cycle through timed interval stations designed to consistently shock your system and deliver results.</p>
+                    <div class="image-overlay"></div>
+                    <div class="services__image">
+                        <img src="Images/business.jpg" alt="Studio Portrait" width="536" height="559" loading="lazy">
+                    </div>
+                </a>
+
+                <a href="#" class="services__card services__card--end">
+                    <h3 class="services__card-title">Sports Photography & Videography</h3>
+                    <p class="services__card-body">Expect the unexpected in our signature high-intensity training class. Cycle through timed interval stations designed to consistently shock your system and deliver results.</p>
+                    <div class="image-overlay"></div>
+                    <div class="services__image">
+                        <img src="Images/sports.jpg" alt="Football Photo" width="536" height="559" loading="lazy">
+                    </div>
+                </a>
+
+            </div>
+
+
+    </div> 
+    </section>
+
+
+
+
+    <section class="get-started get-started-img2 mt-1">
+        <div class="overlay"></div>
+
+        <div class="container">
+            <h1 class="text-center">
+                WE WILL HELP YOU GET IN <br>
+                THE SHAPE OF YOUR LIFE<br>
+                <span>LET'S GET STARTED</span>
+
+            </h1>
+            <a href="#" class="button button--primary">Sign Up</a>
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<footer class="footer pt-1">
+    <div class="container footer-container">
+
+        <div class="footer-col">
+            <h3 class="footer-col__heading">Find Us</h3>
+            <ul class="footer-col__list">
+                <li>Address: <a href="#">Charlotte, NC</a></li>
+                <li>Contact: <a href="email:isozay0@gmail.com">Email</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container text-center footer__copyright">
+        <p class="pt-1">&copy; 2022 Isaiah Shembo - Created by <a href="https://isaiahshembo.com" target="_blank">Isaiah</a> </p>
+    </div>
+
+</footer>
+
+
+
+
+
+</body>
+</html>

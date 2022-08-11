@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <a href="main" class="skip-to-content">Skip to content</a>
+    
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo">
+                <span class="sr-only">Isaiah</span>
+                <a href="/" aria-label="Isaiah Shembo Logo">
+                    <img src="Images/logo.png" alt="Isaiah Shembo" width="43" height="43">
+                </a>
+            </h1>
+
+            <div class="header__menu">
+
+                <!--mobile navigation menu start-->
+                <button class="button" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileMenu">
+                    <img src="Images/menu.svg" alt="Mobile Menu" width="16" height="11">
+
+                </button>
+                <!--mobile navigation menu end-->
+                <!--Desktop navigation menu start-->
+                <nav class="desktop-menu">
+                    <h1 class="sr-only">Main Navigation</h1>
+                    <ul>
+                        <li><a href="experimental.html" class="desktop-menu__link">Home</a></li>
+                        <li><a href="#" class="desktop-menu__link">About</a></li>
+                        <li><a href="#" class="desktop-menu__link">Shop</a></li>
+                        <li><a href="gallery.html" class="desktop-menu__link">Gallery</a></li>
+                        <li><a href="#" class="desktop-menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <!--Desktop navigation menu end-->
+
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+<!--Mobile navigation menu start-->
+<nav class="mobile-menu is-active" id="mobileMenu">
+    <h1 class="sr-only">Main Navigation</h1>
+    <button class="button mobile-nav-close"></button>
+    <ul>
+        <li><a href="experimental.html" class="mobile-menu__link">Home</a></li>
+        <li><a href="#" class="mobile-menu__link">About</a></li>
+        <li><a href="#" class="mobile-menu__link">Shop</a></li>
+        <li><a href="gallery.html" class="mobile-menu__link">Gallery</a></li>
+        <li><a href="#" class="mobile-menu__link">Contact</a></li>
+    </ul>
+</nav>
+<!--Mobile navigation menu end-->
+
+
+<main>
+    
+    <section class="gallery-page gallery-page-img1 mt-1">
+        <div class="overlay"></div>
+
+        <div class="container">
+            <h1 class="text-center">Location Portraits</h1>
+        </div>
+
+    </section>
+
+    <br>
+    <section class="gallery-page gallery-page-img2 mt-1">
+        <div class="overlay"></div>
+
+        <div class="container">
+            <h1 class="text-center">Studio Portraits</h1>
+        </div>
+
+    </section>
+
+    <section class="gallery-page gallery-page-img3 mt-1">
+        <div class="overlay"></div>
+
+        <div class="container">
+            <h1 class="text-center">Sports Photography</h1>
+        </div>
+
+    </section>
+
+</main>
+    
+</body>
+</html>
